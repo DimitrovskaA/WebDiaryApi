@@ -6,16 +6,4 @@ Accept: application/json
 ###
 
 
-// So this file is typically used fot HTTP testing and interacting with the API 
-// And it is part of the setup where you can easily run HTTP requests against your API endpoints from within your development environment (VisualStudio)
-// And the cool thing is it's there to facilitate testing and interacting with your API endpoints directly from the file
-// And this is to serve as a documentation for available endpoints and their expected requests and responses
 
-//@WebApiDiary_HostAddress = http://localhost:5210  creates a variable called WebDiaryApp_HostAddress and then just says okay, this is the address at which testing will be executed
-
-// GET {{WebApiDiary_HostAddress}}/weatherforecast/  This is a Get request, It takes this URL ( http://localhost:5210 ) and adds this endopoint (/weatherforecast/) which is currently weather forecast
-
-//Accept: application/json And then what kind of format does it , So it is expecting the response to be of type JSON so that it can then dispaly it accordingly
-
-// So that's brief summary of what this file is for. But the main point is really the convenience that it brings, because it gives us the capability of quickly testing API endpoints 
-// without needing a separate tool or switching contexts. So we can test it directly with VisualStudio
